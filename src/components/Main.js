@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+// import pic01 from '../images/pic01.jpg'
+// import pic02 from '../images/pic02.jpg'
+// import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/IMG_2660.jpg'
-import pic05 from '../images/IMG_puma.jpeg'
+// import pic05 from '../images/IMG_puma.jpeg'
 import pic06 from '../images/html5.png'
 import pic07 from '../images/css3.png'
 import pic08 from '../images/react.png'
@@ -77,24 +77,24 @@ class Main extends React.Component {
         >
           <h2 className="major">Skills</h2>
           <span className="image main">
-            <img src='https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg' width='300' alt="" />
+            <img src='https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg' alt='' width='300' alt="" />
           </span>
-          <img src='https://static.parastorage.com/client/pfavico.ico' />
+          <img src='https://static.parastorage.com/client/pfavico.ico' alt="" />
           <div className='skillio'>
             <h3>HTML, CSS, React, Node, Express, Javascript, Postgresql, Material-UI, Git, Sketch, etc.</h3>
             <div>
-            <img src={pic06} width='94' margin='20%'/>
-            <img src={pic07} width='100' />
-            <img src={pic08} width='100' />
-            <img src={pic09} width='100' />
-            <img src={pic10} width='100' />
+            <img src={pic06} alt="" width='94' margin='20%'/>
+            <img src={pic07} alt="" width='100' />
+            <img src={pic08} alt="" width='100' />
+            <img src={pic09} alt="" width='100' />
+            <img src={pic10} alt="" width='100' />
             </div>
             <div>
-            <img src={pic11} width='95' />
-            <img src={pic12} width='100' />
-            <img src='https://static.wixstatic.com/media/b4bcde_22e16bf1307142868330102c0f3553ea~mv2.png/v1/fill/w_324,h_256,al_c,q_80,usm_0.66_1.00_0.01/material.webp' width='100' />
-            <img src='https://static.wixstatic.com/media/b4bcde_e69c9f647bb848449b5c7e1019efe3de~mv2.png/v1/fill/w_284,h_282,al_c,q_80,usm_0.66_1.00_0.01/Git-Icon-1788C.webp' width='100' />
-            <img src='https://www.sketch.com/images/pages/press/sketch-press-kit/app-icons/sketch-mac-icon@2x.png' width='100' />
+            <img src={pic11} alt="" width='95' />
+            <img src={pic12} alt="" width='100' />
+            <img src='https://static.wixstatic.com/media/b4bcde_22e16bf1307142868330102c0f3553ea~mv2.png/v1/fill/w_324,h_256,al_c,q_80,usm_0.66_1.00_0.01/material.webp' alt="" width='100' />
+            <img src='https://static.wixstatic.com/media/b4bcde_e69c9f647bb848449b5c7e1019efe3de~mv2.png/v1/fill/w_284,h_282,al_c,q_80,usm_0.66_1.00_0.01/Git-Icon-1788C.webp' alt="" width='100' />
+            <img src='https://www.sketch.com/images/pages/press/sketch-press-kit/app-icons/sketch-mac-icon@2x.png' alt="" width='100' />
             </div>
           </div>
           {close}
